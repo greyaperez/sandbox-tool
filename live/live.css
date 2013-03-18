@@ -1,0 +1,34 @@
+sandbox h1 { 
+	font-family: 'Share Tech', sans-serif;
+	color:#444; 
+	font-weight:normal; 
+	font-size:32px; 
+	letter-spacing:2px;
+}
+stage a {
+	color:#4095C9;
+	font-weight:bold;
+	font-size:13px;
+}
+sandbox { 
+	display:block;
+	width:70%;
+	margin:0 auto;
+	padding:20px;
+	background:#fff;
+	border-radius: 5px;
+	box-shadow:2px 2px 8px rgba(0,0,0,0.3); 
+}
+sandbox ul, sandbox ol {
+	margin:2px 20px;	
+}
+
+.sandboxBtn { 
+	display:inline-block;
+	margin:10px;
+	padding:4px;
+	background:#fff;
+	border:2px #ccc solid;
+	cursor:pointer;
+}
+.sandboxBtn:hover { text-decoration:none; border-color:#888; }
