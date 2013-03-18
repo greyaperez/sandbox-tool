@@ -71,7 +71,7 @@
     var settings = $.extend({
       'start'    : true,
       'stop'     : false,
-      'interval' : 2000
+      'interval' : 1000
     },option);
     
     return this.each(function(){
@@ -88,8 +88,8 @@
                 log(file+" was changed...");
                 live[file] = data[file];
                 switch(file){
-                  case "html":
-                    $sandbox.html('').load('live/live.html?refresh='+new Date().getTime());
+                  case "php":
+                    $sandbox.html('').load('live/live.php?refresh='+new Date().getTime());
                   break;
                   case "css": 
                     $('link[rel="stylesheet"][href^=live]').attr('href','live/live.css?refresh='+new Date().getTime());
@@ -145,7 +145,7 @@
 
 /* ON READY */
 $(function() {
-  $('sandbox').load('live/live.html');
+  $('sandbox').load('live/live.php');
   $.getScript('live/live.js');
   $('sandbox').liveListen();
 });

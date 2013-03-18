@@ -1,8 +1,8 @@
-sandbox h1 { 
+sandbox h1 {
 	font-family: 'Share Tech', sans-serif;
-	color:#444; 
-	font-weight:normal; 
-	font-size:32px; 
+	color:#444;
+	font-weight:normal;
+	font-size:32px;
 	letter-spacing:2px;
 }
 stage a {
@@ -10,20 +10,20 @@ stage a {
 	font-weight:bold;
 	font-size:13px;
 }
-sandbox { 
+sandbox {
 	display:block;
 	width:70%;
 	margin:0 auto;
 	padding:20px;
 	background:#fff;
 	border-radius: 5px;
-	box-shadow:2px 2px 8px rgba(0,0,0,0.3); 
+	box-shadow:2px 2px 8px rgba(0,0,0,0.3);
 }
 sandbox ul, sandbox ol {
-	margin:2px 20px;	
+	margin:2px 20px;
 }
 
-.sandboxBtn { 
+.sandboxBtn {
 	display:inline-block;
 	margin:10px;
 	padding:4px;

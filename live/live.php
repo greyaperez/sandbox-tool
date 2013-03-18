@@ -9,7 +9,7 @@
 <hr />
 <h2>Compatible Servers</h2>
 			<ul>
-				<li> 
+				<li>
 					<a href="http://www.wampserver.com/en/">WAMP (Windows)</a>
 				</li>
 				<li>
@@ -21,7 +21,7 @@
 				<li>
 					<a href="https://www.digitalocean.com/community/articles/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-12-04">NGINX LEMP Stack (Linux)</a>
 				</li>
-			</ul>	
+			</ul>
 
 <hr />
 <h2>How to Use:</h2>
