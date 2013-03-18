@@ -7,6 +7,7 @@ Requirements:
 Any server with PHP... that's it!
 
 How to Use:
-1. Unzip sandbox.zip to a folder on your server's public html directory
-2. Point a browser window to the root location of your sandbox
-3. Edit any of the file inside the "live" folder and watch the updates happen live
+
+1. Unzip sandbox.zip to a folder on your server's public html directory.
+2. Point a browser window to the root location of your sandbox. 
+3. Edit any of the file inside the "live" folder and watch the updates happen live.
