@@ -1,6 +1,6 @@
 <?php
 
-		class Benchmark {
+    class Benchmark {
       public $start,$end,$result;
       public function __construct(){
         $this->start();
